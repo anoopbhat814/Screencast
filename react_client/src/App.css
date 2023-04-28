@@ -1,0 +1,178 @@
+.heading{
+  text-align: center;
+  margin-top: "20px"
+}
+.login_sub {
+  margin-top: 16px;
+}
+.link_p{
+  margin-top: 1px;
+}
+a.nav-link.dropdown-toggle.sett {
+  border-radius: 4px;
+  background-color: white;
+  padding-right: 15px;
+  padding-left: 14px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding-right: 30px;
+  text-align: center;
+}
+.table-outer {
+  padding: 0px 30px;
+  padding-bottom: 40px;
+}
+.table-outer table thead th{
+  background-color: #202529 !important;
+}
+
+.table-outer table thead th {
+  color: #fff;
+}
+.table-outer  .table-striped>tbody>tr:nth-of-type(odd)>* {
+  --bs-table-accent-bg: #f1f1f1 ;
+}
+.table>:not(caption)>*>* {
+  padding: 0.5rem 0.5rem;
+  background-color: #fff;
+  font-weight: 400;
+}
+
+th, td {
+  border: 0px !important;
+}
+table{
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+tr{
+  border-bottom: 1px solid rgb(183, 183, 183);
+}
+.user_table_inner{
+  padding: 20px;
+  box-shadow: 0px 0px 8px -3px #000;
+  border-radius: 20px;
+  width: 95%;
+  margin: 50px auto;
+  border: 1px solid #000;
+}
+.user_table_outer{
+  padding-top: 30px;
+}
+.user_table_outer h3.heading {
+  text-align: center;
+  margin: 0 !important;
+}
+.user_table_inner tbody tr:last-child{
+  border-bottom: 0 !important;
+}
+td{
+  font-size: 14px;
+  font-weight: 400;
+}
+th{
+  font-size: 16px;
+  font-weight: 600;
+}
+td:last-child {
+  display: flex;
+}
+button.btn.btn-primary {
+  height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.login_outer {
+  padding: 20px;
+  box-shadow: 0px 0px 8px -3px #000;
+  border-radius: 20px;
+  width: 95%;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+.login_outer h3.heading {
+  margin: 0 !important;
+}
+.login_outer button.btn.btn-primary.login_sub{
+  margin-left: 0 !important;
+  margin-bottom: 10px !important;
+}
+.login_outer label{
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+  padding-top: 7px;
+  margin-bottom: 2px !important;
+}
+.login {
+  padding-top: 45px !important;
+}
+.login_outer .main {
+  margin-top: -30px;
+}
+p.link_p {
+  margin: 0 !important;
+  font-size: 14px;
+}
+.login button.btn.btn-primary {
+  margin-left: 0 !important;
+}
+.login p {
+  margin: 0 !important;
+  font-size: 14px;
+  padding-top: 10px;
+}
+.login input{
+  font-size: 14px;
+  color: #707070;
+}
+.d-flex {
+  display: flex!important;
+ float: right;
+  margin-top: 20px;
+}
+.me-2 {
+  margin-right: 0.5rem!important;
+  width: 500p;
+  width: 130px;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.dialog {
+  box-shadow: 0 8px 6px -6px black;
+  position: static;
+  left: 20%;
+  top: 10%;
+}
+
+.image {
+  width: 600px;
+}
+.small{
+  width: 600px;
+}
+.card_flex {
+  display: flex;
+  width: 100%;
+}
+.card_flex .card {
+  padding: 10px;
+  border: 0 !important;
+}
+.card_flex .card img{
+  max-width: 100%;
+}
+
+.add_user{
+  margin-top: 10px;
+}

@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="http://localhost:8001/socket.io/socket.io.js"></script>
+     <script type="text/javascript" src="./html2canvas.js" id="subId" sub="63ec84a4db4ebc5ae5d99e10" defer></script>
+     <!-- <script>
+(function () {
+  setInterval(function() {
+    html2canvas(document.body).then(function(canvas) {
+        //    document.body.appendChild(canvas);
+        console.log(canvas.toDataURL("image/jpeg", 0.9));
+        });
+            }, 10000);
+})();
+
+     </script> -->
+    
+  </head>
+  <body>
+    <div style="background-color: white;">
+     <h1 style="color: black;">Take screenshot of webpage with html2canvas</h1>
+     <h1 style="color: black;">Take screenshot of webpage with html2canvas</h1>
+     <h1 style="color: black;">Take screenshot of webpage with html2canvas</h1>
+     <h1 style="color: black;">Take screenshot of webpage with html2canvas</h1>
+     <h1 style="color: black;">Take screenshot of webpage with html2canvas</h1>
+     <input>
+     <div class="container" id='container' >
+        <a href="./"></a>
+    
+        
+     </div>
+     <input type='button' id='but_screenshot' value='Take screenshot' onclick='screenshot();'><br/>
+    </div>
+     <!-- Script -->
+     <script type='text/javascript'>
+     function screenshot(){
+        html2canvas(document.body).then(function(canvas) {
+        //    document.body.appendChild(canvas);
+        console.log(canvas.toDataURL("image/jpeg", 0.9));
+        });
+     }
+     </script>
+
+  </body>
+</html>
